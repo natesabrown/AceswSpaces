@@ -1,0 +1,11 @@
+footer {
+    
+}
+
+#natelink {
+    color: gray;
+}
+
+#natelink:hover {
+    color: darkgray;
+}

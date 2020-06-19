@@ -8,9 +8,10 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import './style.css'
 
-import Header from "./header"
-import "./layout.css"
+import Header from "../header"
+import Navbar from '../navbar'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -25,7 +26,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Navbar />
       <div
         style={{
           margin: `0 auto`,
@@ -34,13 +35,16 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
+        
         <footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()} Aces w/ Spaces, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.gatsbyjs.org">Gatsby </a>
+          by <a href="https://apps.apple.com/us/developer/nathaniel-brown/id1516706419" id="natelink" target="_blank">Nathaniel Brown</a>
         </footer>
       </div>
     </>
+
   )
 }
 

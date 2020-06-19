@@ -1,0 +1,34 @@
+#wrapperdiv {
+    border: 5px solid red;
+    border-radius: 10px;
+    position: relative;
+    padding: 38px;
+    margin: 20px;
+    margin-bottom: 60px;
+    background-color: white;
+}
+
+#titlediv {
+    background-color :white;
+    position: absolute;
+    top: -45px;
+    left: 7%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#titlediv img {
+    width: 50px;
+    transform: translateY(-12px);
+}
+
+#titletext {
+    margin-left: 12px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.blackborder {
+    border-color: black !important; 
+}
+

@@ -1,0 +1,19 @@
+.navitem {
+    color: gray;
+    position: relative;
+    margin: 10px;
+    transition: color 0.35s ease-in-out;
+}
+
+.navitem:hover {
+    color: black;
+}
+
+
+.navimage {
+    width: 28px;
+    height: 28px;
+    margin-right: 4px;
+    transform: translateY(-4px);
+}
+

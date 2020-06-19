@@ -1,0 +1,28 @@
+.cardholder {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    z-index: 1;
+    display: inline-block;
+    /* transform: scale(1.5); */
+}
+
+.logobase {
+    position: absolute;
+    height: 70%;
+    bottom: 0;
+    right: 0;
+}
+
+.awscard {
+    transition: transform 1s ease-in-out;
+    position: absolute;
+    height: 85%;
+    left: 28px;
+    top: 0;
+}
+
+.bottomcard {
+    /* left: 15px; */
+}
+

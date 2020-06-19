@@ -1,0 +1,94 @@
+#maingrid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 8fr;
+    gap: 1.2rem 1.2rem;
+    justify-items: center;
+}
+
+@media(max-width: 960px) {
+    .personcard {
+        width: 320px;
+        height: 420px;
+    }
+}
+
+@media(max-width: 840px) {
+    #maingrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.personcard {
+    width: 385px;
+    height: 500px;
+    overflow: hidden;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 14px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 14px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 14px -5px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    border-radius: 25px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.personcard:hover {
+    transform: translate(15px, -15px) rotate(4deg);
+    -webkit-box-shadow: 0px 0px 14px -5px rgba(0, 0, 0, 1.25);
+    -moz-box-shadow: 0px 0px 14px -5px rgba(0, 0, 0, 1.25);
+    box-shadow: 0px 0px 14px -5px rgba(0, 0, 0, 1.25);
+}
+
+.personcard img {
+    height: 8em;
+    float: right;
+}
+
+.personcard #name {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.personcard #role {
+    font-size: 15px;
+    font-weight: 200;
+    opacity: 0.8;
+}
+
+.personcard #bio {
+    margin: 15px;
+}
+
+#quoteimgleft {
+    margin-right: 10px;
+}
+
+#quoteimgright {
+    margin-left: 10px;
+}
+
+@media(max-width: 960px) {
+    .personcard {
+        width: 320px;
+        height: 420px;
+    }
+}
+
+#overflowdiv {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+}
+
+#cardbgdiv {
+    width: 105%;
+    height: 405px;
+    position: relative;
+    left: -20px;
+    margin-top: 5em;
+    background-image: url('../../images/cardscroller.png');
+    background-size: 60em;
+    background-repeat: repeat-x; 
+}

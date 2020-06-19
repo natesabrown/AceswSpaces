@@ -1,0 +1,27 @@
+#title {
+    font-size: 30px;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+#list {
+    column-count: 2;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+    color: darkred;
+}
+
+#signaturediv {
+    margin-bottom: 40px;
+}
+
+#signature {
+    height: 30px;
+    width: auto;
+}
