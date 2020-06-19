@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import bottomCard from '../../images/spinning_logo/bottomcard.svg'
-import middleCard from '../../images/spinning_logo/middleCard.svg'
-import topCard from '../../images/spinning_logo/topCard.svg'
+import middleCard from '../../images/spinning_logo/middlecard.svg'
+import topCard from '../../images/spinning_logo/topcard.svg'
 import logoBase from '../../images/spinning_logo/awsbase.png'
 import './style.scss'
 
