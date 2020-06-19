@@ -44,10 +44,8 @@ const Mission = () => (
             For any questions or concerns, email us at <a href="mailto:acewspace@gmail.com"><GrMail /> acewspace@gmail.com</a> or
             visit our <a href="https://www.instagram.com/aceswspaces/"><GrInstagram /> insta</a>. We look forward to talking with you!
         </p>
-        <div style={{width:"100%", height:"31px"}}>
-            <div id="signaturediv" style={{ float: "right" }}>
-                <img src={signature} id="signature" />
-            </div>
+        <div id="signaturediv">
+            <img src={signature} id="signature" />
         </div>
 
     </AWSWrapper>

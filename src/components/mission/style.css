@@ -18,8 +18,8 @@ a:hover {
 }
 
 #signaturediv {
-    margin-bottom: 40px;
-    
+    text-align: right;
+    margin-right: 30px;
 }
 
 #signature {
@@ -27,7 +27,3 @@ a:hover {
     width: auto;
 }
 
-#funnewdiv {
-    width: 100%;
-    height: 31px;
-}
