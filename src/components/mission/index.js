@@ -16,7 +16,7 @@ const Mission = () => (
         isBlack={true}
     >
         <p>
-            Welcome to <span id="title">Aces with Spaces!</span>
+            Welcome to <span id="title">Aces&nbsp;with&nbsp;Spaces!</span>
         </p>
         <p>
             Our mission is to provide Texas students with a greater education, regardless of income
@@ -31,7 +31,7 @@ const Mission = () => (
                     <li>Writing</li>
                 </div>
             </ul>
-            <div style={{ width: "100%", textAlign:"right", paddingRight:"20%" }}>
+            <div style={{ width: "100%", textAlign: "right", paddingRight: "20%" }}>
                 ...and <u>many more!</u>
             </div>
         </p>
@@ -44,8 +44,10 @@ const Mission = () => (
             For any questions or concerns, email us at <a href="mailto:acewspace@gmail.com"><GrMail /> acewspace@gmail.com</a> or
             visit our <a href="https://www.instagram.com/aceswspaces/"><GrInstagram /> insta</a>. We look forward to talking with you!
         </p>
-        <div id="signaturediv" style={{ float: "right" }}>
-            <img src={signature} id="signature"/>
+        <div id="signaturecontainer">
+            <div id="signaturediv" style={{ float: "right" }}>
+                <img src={signature} id="signature" />
+            </div>
         </div>
 
     </AWSWrapper>

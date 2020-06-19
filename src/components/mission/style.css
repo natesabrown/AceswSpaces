@@ -19,9 +19,15 @@ a:hover {
 
 #signaturediv {
     margin-bottom: 40px;
+    
 }
 
 #signature {
     height: 30px;
     width: auto;
+}
+
+#signaturecontainer {
+    width: 100%;
+    height: 30px;
 }

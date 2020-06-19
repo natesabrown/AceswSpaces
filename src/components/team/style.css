@@ -75,6 +75,13 @@
     }
 }
 
+@media(max-width: 767px) {
+    .personcard {
+        width: 100%;
+    }
+}
+
+
 #overflowdiv {
     width: 100%;
     position: absolute;

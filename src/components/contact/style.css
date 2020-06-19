@@ -41,3 +41,9 @@
 .instahandle:hover {
     /* filter: brightness(50%); */
 }
+
+@media(max-width: 767px) {
+    #contactdiv a{
+        font-size: 20px;
+    }
+}

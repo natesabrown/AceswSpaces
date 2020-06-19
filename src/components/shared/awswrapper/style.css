@@ -32,3 +32,13 @@
     border-color: black !important; 
 }
 
+@media screen and (max-width: 767px) {
+    #titletext {
+        font-size: 30px;
+    }
+    #wrapperdiv {
+        margin: 0;
+        margin-bottom: 80px;
+        padding: 20px;
+    }
+  }
